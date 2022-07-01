@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: to bottom, #2C5354,#203A43,#0F2027;
+        }
+        .piano{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+        }
+        .key{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+        .white{
+            width: 8%;
+            min-width: 60px;
+            height: 70%;
+            background-color: white;
+            border: 1px solid #ccc;
+            color: #000;
+        }
+        .black{
+            width: 8%;
+            height: 45%;
+            margin-left: -4%;
+            margin-right: -4%;
+            z-index: 2;
+            background-color: black;
+            color: #fff;   
+        }
+        .white.active{
+            background-color: #ccc;
+        }
+        .black.active{
+            background-color: #333;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*  img{
+            width: 640px;
+    margin: 20px auto;
+    text-align: center;
+        }
+        button{
+            border: none;
+            background: none;
+        }
+        #btn{
+            width: 25px;
+          text-align: center;
+        }*/
+      /*  #gallery{
+    width: 640px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#gallery .photos img{
+    width: 100%;
+    display: none;
+}
+
+#gallery .photos img:first-child{
+    display: block;
+}
+
+.buttons {
+    margin-top: 20px;
+}                */
+    </style>
+</head>
+<body>
+    <div class="piano">
+        <div class="key white" data-note="C">A</div>
+        <div class="key black" data-note="Cs">W</div>
+        <div class="key white" data-note="D">S</div>
+        <div class="key black" data-note="Ds">E</div>
+        <div class="key white" data-note="E">D</div>
+        <div class="key white" data-note="F">F</div>
+        <div class="key black" data-note="Fs">R</div>
+        <div class="key white" data-note="G">G</div>
+        <div class="key black" data-note="Gs">T</div>
+        <div class="key white" data-note="A">H</div>
+        <div class="key black" data-note="As">Y</div>jmmgfhjkmgfhjkgmf
+        <div class="key white" data-note="B">J</div>
+    </div>
+    <audio src="Sound/C4.mp3" id="C"></audio>
+    <audio src="Sound/Cs4.mp3" id="Cs"></audio>
+    <audio src="Sound/D4.mp3" id="D"></audio>
+    <audio src="Sound/Ds4.mp3" id="Ds"></audio>
+    <audio src="Sound/E4.mp3" id="E"></audio>
+    <audio src="Sound/F4.mp3" id="F"></audio>
+    <audio src="Sound/Fs4.mp3" id="Fs"></audio>
+    <audio src="Sound/G4.mp3" id="G"></audio>
+    <audio src="Sound/Gs4.mp3" id="Gs"></audio>
+    <audio src="Sound/A4.mp3" id="A"></audio>
+    <audio src="Sound/As4.mp3" id="As"></audio>
+    <audio src="Sound/B4.mp3" id="B"></audio>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<div id="gallery">
+        <div class="photos">
+            <img src="img/png.png">
+            <img src="img/png2.png">
+            <img src="img/png3.png">
+        </div>
+        <div class="buttons">
+            <button class="prev">Назад</button>
+            <button class="next">Вперед</button>
+        </div>
+    </div>-->
+
+
+
+
+
+
+
+
+
+<!--<img src="" alt="" id="images">
+  
+   <button onclick="myImages_second(this)" ><img src="img/strelka1.png" alt="" id="btn"></button>
+    <button onclick="myImages(this)" ><img src="img/strelka3.png" alt="" id="btn"></button>
+
+-->
+    <script src="js.js"></script>
+</body>
+</html>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--<h1 id="fruit"></h1>
+    <button onclick="myfunction(this)">Delete</button>-->
+
+   
